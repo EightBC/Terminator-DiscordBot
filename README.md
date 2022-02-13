@@ -1,1 +1,1 @@
-# Terminator-DisordBot-
+# Terminator-DiscordBot-
