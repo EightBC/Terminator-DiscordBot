@@ -1,1 +1,1 @@
-# Terminator-DiskordBot-
+# Terminator-DisordBot-
