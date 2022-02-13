@@ -14,8 +14,11 @@ async def on_ready():
 
 @client.event
 async def on_message(message):
-    if message.author == client.user:
+    if message.author.bot:
         return
+
+    if message.content.startswith('$role'):
+        await message.channel.send(message.author.roles)
 
     if message.content.startswith('$hello'):
         await message.channel.send('Hello!')
